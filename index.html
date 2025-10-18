@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>• | tsitsipas.xyz</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=BBH+Sans+Bogle:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="dot" id="dot"></div>
+        <div class="hint" id="hint">something's hidden...</div>
+        
+        <div class="achievement" id="achievement">
+            Achievement unlocked—nicely done
+        </div>
+        
+        <div class="email-container" id="emailContainer">
+            <div class="email" id="emailElement" onclick="copyEmail()">
+                info@tsitsipas.xyz
+            </div>
+        </div>
+    </div>
+
+    <!-- Toast notification -->
+    <div class="toast" id="toast">
+        Copied! Now you have no excuse 😉
+    </div>
+
+    <!-- Particle canvas will be created by JavaScript -->
+
+    <script src="app.js"></script>
+</body>
+</html>
